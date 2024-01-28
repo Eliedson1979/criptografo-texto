@@ -2,13 +2,13 @@
 
 ![Preview Projeto](./img/tela.png)
 
-## Acesse o projeto clicando <a href="">AQUI</a>
+## Acesse o projeto clicando <a href="https://eliedson1979.github.io/criptografo-texto/">AQUI</a>
 
 <br />
 
 ## 📡 Desenvolvimento
 
-Projeto desenvolvido na <a href="https://Alura.com/" target="_blank">Trybe</a> durante o Challenge ONE Iniciante em Programação.
+Projeto desenvolvido na <a href="https://Alura.com/" target="_blank">Alura</a> durante o Challenge ONE Iniciante em Programação.
 
 Nesse projeto desenvolvemos uma aplicação para encriptografar e descriptografar texto. Colocamos em prática o aprendizado em HTML5 | CSS | Formulários | Responsividade | Flex-Box | Media Queries | Estilização | JavaScript | DOM | Funções | 
 
@@ -23,46 +23,12 @@ Nesse projeto desenvolvemos uma aplicação para encriptografar e descriptografa
 ### 1 - Clone o repositório:
 
 ```
-git clone 
+git clone git@github.com:Eliedson1979/criptografo-texto.git
 ```
 
-### 2 - Apos ter o repositório clonado em sua maquina, execute este comando para acessar a pasta do projeto:
+### 2 - Acesse a aplicação:
 
-```sh
-cd wallet
-```
-
-### 3 - Dentro da pasta do projeto, execute o comando abaixo para instalar as dependências do projeto:
-
-Caso utilize o npm:
-
-```sh
-npm install
-```
-
-Caso utilize o yarn:
-
-```sh
-yarn install
-```
-
-### 4 - Dentro da pasta do projeto, execute o comando abaixo para iniciar o servidor do projeto:
-
-Caso utilize o npm:
-
-```sh
-npm start
-```
-
-Caso utilize o yarn:
-
-```sh
-yarn start
-```
-
-### 5 - Acesse a aplicação:
-
-Abrindo na porta padrão que o React usa: <http://localhost:3000/> em seu navegador.
+Abrindo a pagina index.html usa: <(http://127.0.0.1:5500/index.html)> em seu navegador.
 
   </details>
 <br />
