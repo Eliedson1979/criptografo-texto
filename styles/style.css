@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+/* Reset de estilos para garantir consistência entre navegadores */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilo global do corpo da página */
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+/* Estilo do cabeçalho */
+.container-titulo {
+  background-color: #4285f4;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.titulo {
+  font-size: 2em;
+}
+
+.img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 10px;
+}
+
+/* Estilo do formulário principal */
+.container-texto {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+.textarea-direito,
+.textarea-esquerdo {
+  flex: 1;
+  margin: 0 10px;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  resize: none;
+}
+
+.info {
+  font-family: 'Inter', sans-serif;
+  margin-left: 130px;
+}
+
+.detetiv{
+  margin-left: 200px;
+  width: 300px;
+  height: 200px;
+}
+
+.container-btn {
+  margin-top: 50px;
+  margin-left: 4px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.btn-cript,
+.btn-descript,
+.btn-copiar {
+  padding: 10px;
+  margin-right: 5px;
+  cursor: pointer;
+  background-color: #4285f4;
+  color: #fff;
+  border: none;
+}
+
+.btn-cript:hover,
+.btn-descript:hover,
+.btn-copiar:hover {
+  background-color: #0c7b93;
+}
+
+button {
+  padding: 10px;
+  cursor: pointer;
+  background-color: #f44336;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #da190b;
+  
+}
+
+/* Estilo do rodapé */
+footer {
+  background-color: #4285f4;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Media queries para tornar o layout responsivo */
+@media only screen and (max-width: 600px) {
+  .container-texto {
+    flex-direction: column;
+  }
+
+  .textarea-direito,
+  .textarea-esquerdo {
+    margin: 0;
+  }
+
+  .detetiv {
+    margin-left: 0;
+  }
+
+  .info {
+    margin-left: 0;
+  }
+  
+  .btn-cript,
+  .btn-descript,
+  .btn-copiar {
+    width: 100%; /* Torna os botões 100% de largura */
+  }
+
+}
