@@ -28,7 +28,7 @@ git clone git@github.com:Eliedson1979/criptografo-texto.git
 
 ### 2 - Acesse a aplicação:
 
-Abrindo a pagina index.html usa: <(http://127.0.0.1:5500/index.html)> em seu navegador.
+Abrindo a pagina index.html exemplo: <(http://127.0.0.1:5500/index.html)> em seu navegador.
 
   </details>
 <br />
